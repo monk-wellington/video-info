@@ -4,7 +4,7 @@
   "description": "Learning application for Electron",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/monk-wellington/video-info/issues"
   },
-  "homepage": "https://github.com/monk-wellington/video-info#readme"
+  "homepage": "https://github.com/monk-wellington/video-info#readme",
+  "dependencies": {
+    "electron": "^12.0.7"
+  }
 }
