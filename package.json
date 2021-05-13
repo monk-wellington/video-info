@@ -1,19 +1,22 @@
 {
-  "name": "video-info",
-  "version": "1.0.0",
-  "description": "Learning application for Electron",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/monk-wellington/video-info.git"
-  },
-  "author": "Monk Wellington",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/monk-wellington/video-info/issues"
-  },
-  "homepage": "https://github.com/monk-wellington/video-info#readme"
+    "name": "video-info",
+    "version": "1.0.0",
+    "description": "Learning application for Electron",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/monk-wellington/video-info.git"
+    },
+    "author": "Monk Wellington",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/monk-wellington/video-info/issues"
+    },
+    "homepage": "https://github.com/monk-wellington/video-info#readme",
+    "dependencies": {
+        "electron": "^12.0.7"
+    }
 }
