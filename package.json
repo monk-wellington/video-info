@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/monk-wellington/video-info#readme",
     "dependencies": {
-        "electron": "^12.0.7"
+        "electron": "^12.0.7",
+        "fluent-ffmpeg": "^2.1.2"
     }
 }
